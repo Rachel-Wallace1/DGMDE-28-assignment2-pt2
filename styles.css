@@ -1,0 +1,50 @@
+#game {
+    position: absolute; left: 100px;
+}
+
+.gameinfo {
+    color: #505050;
+    display: inline-block;
+}
+
+.player1 {
+    color: #dc143c;
+    display: inline-block;
+}
+
+.player2 {
+    color: #008080;
+    display: inline-block;
+}
+
+button {
+    background-color: #0d80f2;
+    border: 2px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 22px;
+    margin: 4px;
+    padding: 12px 24px;
+}
+button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #0d80f2;
+}
+
+#board {
+    margin-top: 60px;
+}
+
+#result {
+    width: 100px;
+    height: 75px;
+    border:2px solid;
+    color: #505050;
+    display: table-cell;
+    text-align: center;
+}
+
+#player1 {
+    color: #dc143c;
+}
